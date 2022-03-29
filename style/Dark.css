@@ -73,7 +73,7 @@ nav.desktop ul li.active a {
   color: var(--secondColor1);
 }
 .text h2 .bg {
-  background: url(/img/UnderlineD.png) no-repeat;
+  background: url(../img/UnderlineD.png) no-repeat;
   background-size: contain;
 }
 .imgs .avatar {
