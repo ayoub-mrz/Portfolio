@@ -1,0 +1,180 @@
+:root {
+  --mainColor: #ff0612;
+  --secondColor1: #00cc59;
+  --secondColor2: #c70009;
+}
+/*----------------Scrollbar----------------*/
+* {
+  scrollbar-color: #201f1f #848484;
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #656eca;
+  border: 2px solid #000;
+  border-radius: 15px 0 0 15px;
+}
+/*----------------Scrollbar----------------*/
+body {
+  background-color: #0d0b33;
+}
+.heading p {
+  color: #979797;
+}
+.heading h2 {
+  color: var(--secondColor1);
+}
+.btn {
+  background: var(--mainColor);
+  color: #fff;
+  box-shadow: 4px 4px 12px 0 #00000036;
+}
+.btn:hover:not(label) {
+  outline: 2px solid var(--mainColor);
+  color: var(--mainColor);
+}
+.see {
+  color: var(--secondColor2);
+}
+section.home .container .content .text {
+  color: #fff;
+}
+nav.desktop .logo {
+  background: url(../img/Logo.png) no-repeat center;
+  background-size: contain;
+}
+nav.desktop ul li a {
+  color: #dddddd;
+}
+nav.desktop ul li a:hover {
+  color: var(--secondColor1);
+}
+nav.desktop ul li.active {
+  background: var(--mainColor);
+}
+nav.desktop ul li.active a {
+  color: #fff;
+}
+.toggle-mode {
+  background: var(--mainColor);
+}
+.nums {
+  color: #9d9d9d;
+}
+.nums ul li.active {
+  color: #000;
+}
+.text h3 span {
+  color: var(--secondColor1);
+}
+.text h2 .bg {
+  background: url(/img/UnderlineD.png) no-repeat;
+  background-size: contain;
+}
+.imgs .avatar {
+  background: linear-gradient(45deg, var(--mainColor), var(--secondColor2));
+  box-shadow: 5px 5px 13px 0 #000000ad;
+}
+.imgs .border {
+  border: 2px solid var(--secondColor2);
+}
+section.about .container .circules-container .circule-progress {
+  box-shadow: inset 3px 3px 13px 0 #000000b8;
+}
+section.about .container .circules-container .circule-progress .circule-heading,
+section.about .container .circules-container .circule-progress .circule-value {
+  color: var(--secondColor2);
+}
+section.about .container .circules-container .circule-progress:before {
+  background: #0d0b33;
+}
+section.about .container .experience {
+  background: #ff061280;
+}
+section.about .container .experience:before {
+  background: var(--mainColor);
+}
+section.about .container .experience .content h3 {
+  color: #ffaaae;
+}
+section.about .container .experience .content .years {
+  color: #fff;
+}
+section.services .cards-container .card {
+  box-shadow: 6px 6px 15px 3px #00000042;
+}
+section.services .cards-container .card:hover {
+  background: var(--mainColor);
+}
+section.services .cards-container .card:hover p {
+  color: #fff;
+}
+section.services .cards-container .card h4 {
+  color: var(--secondColor2);
+}
+section.services .cards-container .card p {
+  color: #9f9f9f;
+}
+section.projects .container .project-count {
+  background: #00cc5973;
+}
+section.projects .container .project-count:before {
+  background: var(--secondColor1);
+}
+section.projects .container .project-container .project {
+  box-shadow: 10px 10px 13px 4px #00000057;
+}
+section.projects .container .project-container .project::before {
+  background: #ff061229;
+}
+section.testimonials .content h1 {
+  color: #d7d7d7;
+}
+section.contact .bg {
+  background: url(../img/BGD.png) no-repeat;
+  background-size: cover;
+}
+@media (max-width: 576px) {
+  section.contact .bg {
+    background: url(../img/BGMD.png) no-repeat;
+    background-size: cover;
+  }
+}
+section.contact .container .content form .inputs input,
+section.contact .container .content form .inputs textarea {
+  background: #5c5c5c;
+  box-shadow: inset 3px 3px 13px 0 #3a3a3a;
+}
+section.contact .container .content form .inputs input::placeholder,
+section.contact .container .content form .inputs textarea::placeholder {
+  color: #2c2c2c;
+}
+
+section.contact .container .content form label {
+  background: #007a37;
+}
+section.contact .container .content form label:hover {
+  color: #003c1b;
+  outline: 1px solid;
+}
+footer {
+  background: #00a54a;
+}
+footer .social-icons span {
+  background: var(--mainColor);
+  color: #fff;
+}
+footer .social-icons span:before {
+  border-color: var(--mainColor) transparent transparent;
+}
+footer .social-icons .icon:hover a {
+  background: var(--mainColor);
+}
+footer .copie span {
+  color: var(--secondColor2);
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "title": "bookmark-landing",
+        "img": "img/Project1.jpg",
+        "href": "https://ayoub-mrz.github.io/bookmark-landing/"
+    },
+    {
+        "title": "Memory-Game",
+        "img": "img/Project2.jpg",
+        "href": "https://ayoub-mrz.github.io/Memory-Game/"
+    },
+    {
+        "title": "easybank-landing",
+        "img": "img/Project3.jpg",
+        "href": "https://ayoub-mrz.github.io/easybank-landing/"
+    },
+    {
+        "title": "manage-landing",
+        "img": "img/Project4.jpg",
+        "href": "https://ayoub-mrz.github.io/manage-landing/"
+    }
+]

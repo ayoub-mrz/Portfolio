@@ -1,0 +1,22 @@
+[
+    {
+        "skills_title": "PhotoShop",
+        "skills_value": 45
+    },
+    {
+        "skills_title": "HTML",
+        "skills_value": 70
+    },
+    {
+        "skills_title": "CSS",
+        "skills_value": 65
+    },
+    {
+        "skills_title": "JavaScript",
+        "skills_value": 50
+    },
+    {
+        "skills_title": "jQuery",
+        "skills_value": 20
+    }
+]

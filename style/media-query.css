@@ -1,0 +1,178 @@
+/* Large */
+@media (max-width: 1200px) {
+  nav.desktop {
+    padding: 0 5rem;
+  }
+  section.testimonials .content {
+    justify-content: space-evenly;
+    margin: 4rem 0;
+  }
+  section.testimonials .content h1 {
+    font-size: 3em;
+  }
+  section.testimonials .content img {
+    height: 230px;
+  }
+}
+/* Medium */
+@media (max-width: 992px) {
+  nav.desktop {
+    padding: 0 2rem;
+  }
+  section.home .container .content {
+    flex-direction: column-reverse;
+  }
+  section.home .container .content .text,
+  section.home .container .content .imgs {
+    width: 100%;
+    height: 50%;
+    height: 350px;
+    padding: 0;
+    display: grid;
+    place-items: center;
+  }
+  section.home {
+    padding-bottom: 4rem;
+  }
+  section.about .container .circules-container .circule-progress {
+    margin: 3rem;
+  }
+  footer {
+    padding: 0 4rem;
+  }
+  section.services .cards-container .card:nth-child(3) {
+    margin-top: 3rem;
+  }
+  section.contact .background .num5 {
+    top: 185px;
+  }
+  section.contact .background .num6 {
+    top: 350px;
+  }
+}
+/* Small */
+@media (max-width: 768px) {
+  nav.desktop ul {
+    display: none;
+  }
+  section.contact .container .content form .inputs {
+    flex-direction: column;
+  }
+  section.contact .container .content form .inputs textarea {
+    max-height: 150px;
+    max-width: 350px;
+    width: 350px;
+    height: 150px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer .social-icons,
+  footer .copie {
+    margin-bottom: 1rem;
+  }
+  section.testimonials .content img {
+    height: 175px;
+  }
+  section.testimonials .content h1 {
+    font-size: 2em;
+  }
+}
+/* Smallest */
+@media (max-width: 576px) {
+  .heading h2 {
+    font-size: 2em;
+  }
+  .heading p {
+    font-size: 0.8em;
+  }
+  .imgs .avatar,
+  .imgs .border {
+    height: 200px;
+    width: 260px;
+    transform: translateX(18%);
+  }
+  .imgs .avatar img {
+    height: 180px;
+  }
+  section.about .container .circules-container .circule-progress {
+    margin: 1rem;
+  }
+  section.projects .container .project-container .project {
+    height: 270px;
+    width: 220px;
+  }
+  section.projects .container .project-container .project img {
+    height: 270px;
+    width: 220px;
+  }
+  section.projects .container .project-container .project .title {
+    font-size: 1rem;
+  }
+  .text h2 {
+    margin-bottom: 0rem;
+    font-size: 2.2em;
+  }
+  .text h2 img {
+    top: 35px;
+    left: -25px;
+  }
+  section.about .container .circules-container .circule-progress {
+    height: 220px;
+    width: 220px;
+    margin-block: 3rem;
+  }
+  section.services .cards-container .card {
+    margin-top: 0 !important;
+  }
+  section.testimonials .content {
+    flex-direction: column-reverse;
+  }
+  section.testimonials .content img {
+    margin-bottom: 1rem;
+  }
+  section.contact .container .content form .inputs input {
+    width: 250px;
+    height: 50px;
+  }
+  section.contact .container .content form .inputs textarea {
+    max-width: 250px;
+    width: 250px;
+  }
+  section.contact .background .num5 {
+    height: 179px;
+    width: 180px;
+    top: 170px;
+    right: 10px;
+  }
+  section.contact .background .num6 {
+    height: 180px;
+    width: 180px;
+    top: 400px;
+    left: -80px;
+    z-index: 1;
+  }
+  footer {
+    padding: 0;
+  }
+}
+/* //////////////////////////////////////////////////////////////////// */
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
