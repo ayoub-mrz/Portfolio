@@ -48,10 +48,10 @@ nav.desktop .logo {
   background: url(../img/LogoD.png) no-repeat center;
   background-size: contain;
 }
-nav.desktop ul li a {
+nav.desktop ul li a:not(.btn) {
   color: #dddddd;
 }
-nav.desktop ul li a:hover {
+nav.desktop ul li a:hover:not(.btn) {
   color: var(--secondColor1);
 }
 nav.desktop ul li.active {
